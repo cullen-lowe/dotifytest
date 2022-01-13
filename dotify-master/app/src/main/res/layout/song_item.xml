@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageButton
+        android:id="@+id/songPlayButton"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:src="@android:drawable/ic_media_play" />
+
+        <TextView
+            android:id="@+id/songNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SongName"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/songPlayButton"
+            />
+
+        <ImageButton
+            android:id="@+id/likeButton"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageButton
+            android:id="@+id/dislikeButton"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/likeButton"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <TextView
+            android:id="@+id/artistNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ArtistName"
+            android:layout_marginTop="5dp"
+            android:layout_below= "@id/songNameLabel"
+            android:layout_alignLeft="@id/songNameLabel"
+
+            />
+
+</RelativeLayout>

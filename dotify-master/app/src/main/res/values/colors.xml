@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- backup original colors -->
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <!-- APP THEME COLORS TO USE -->
+
+    <color name="colorPrimary">#59323C</color>
+    <color name="colorPrimaryDark">#482931</color>
+    <color name="colorAccent">#252525</color>
+
+    <color name="redWine">#59323C</color>
+    <color name="purpleDrapes">#260126</color>
+    <color name="shellWallWhite">#F2EEB3</color>
+    <color name="beige">#BFAF80</color>
+    <color name="redSand">#8C6954</color>
+
+    <color name="music_button_background">#ea161515</color>
+    <color name="music_button_pressed_background">#424242</color>
+</resources>

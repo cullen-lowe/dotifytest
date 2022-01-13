@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="74dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:divider="@drawable/statusbar_divider"
+    android:showDividers="middle"
+    android:background="@drawable/statusbar_border">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/newsfeed_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:translationZ="0dp"
+            android:background="#59000000"/>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/newsfeed_dark"
+            android:elevation="2dp"
+            android:translationZ="2dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/library_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:translationZ="0dp"
+            android:background="#59000000" />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"
+            android:elevation="2dp"
+            android:translationZ="2dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/settings_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:translationZ="0dp"
+            android:background="#59000000"/>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/clock"
+            android:elevation="2dp"
+            android:translationZ="2dp"/>
+    </FrameLayout>
+
+</LinearLayout>

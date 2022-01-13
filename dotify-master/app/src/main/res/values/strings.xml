@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dotify</string>
+    <string name="music_prev">prev</string>
+    <string name="music_play">play</string>
+    <string name="music_next">next</string>
+    <string name="play_button_description">Play or Pause music</string>
+    <string name="artist_picture">artist picture</string>
+    <string name="pref_title_sync_frequency">pref_title_sync_frequency</string>
+    <string name="pref_title_system_sync_settings">pref_title_system_sync_settings</string>
+    <string name="pref_description_social_recommendations">pref_description_social_recommendations</string>
+    <string name="pref_title_social_recommendations">pref_title_social_recommendations</string>
+    <string name="pref_default_display_name">pref_default_display_name</string>
+    <string name="pref_title_display_name">pref_title_display_name</string>
+    <string name="pref_title_add_friends_to_messages">pref_title_add_friends_to_messages</string>
+    <string name="pref_header_general">pref_header_general</string>
+    <string name="pref_header_notifications">pref_header_notifications</string>
+    <string name="pref_header_data_sync">pref_header_data_sync</string>
+    <string name="pref_title_new_message_notifications">pref_title_new_message_notifications</string>
+    <string name="pref_title_ringtone">pref_title_ringtone</string>
+    <string name="pref_title_vibrate">pref_title_vibrate</string>
+    <string name="pref_ringtone_silent">silent</string>
+    <string name="new_user"><u>New User</u></string>
+</resources>
